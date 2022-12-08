@@ -1,0 +1,1 @@
+{"purpose_values": {"debt_consolidation": 1, "all_other": 2, "credit_card": 3, "home_improvement": 4, "small_business": 5, "major_purchase": 6, "educational": 0}, "columns": ["purpose", "int.rate", "installment", "log.annual.inc", "dti", "fico", "days.with.cr.line", "revol.bal", "revol.util", "inq.last.6mths", "delinq.2yrs", "pub.rec", "not.fully.paid"]}

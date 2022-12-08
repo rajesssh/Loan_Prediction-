@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Policy</title>
+</head>
+
+<body style="background-color: rgb(144, 61, 177);">
+
+    <h1>Credit Policy </h1>
+    <form method="POST" action="/credit">
+
+        <label>Purpose:</label>
+        <select name = "purpose">
+            <option value = "debt_consolidation">Debt_Consolidation</option>
+            <option value = "all_other">All_Other</option>
+            <option value = "credit_card">Credit_Card</option>
+            <option value = "home_improvement">Home_Improvement</option>
+            <option value = "small_business">Small_Business</option>
+            <option value = "major_purchase">Major_Purchase</option>
+            <option value = "educational">Educational</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label>Int_Rate:</label>
+        <input type = "text" name = "int_rate">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Installment:</label>
+        <input type = "text" name = "installment">
+        </select>
+
+        <br>
+        <br>
+
+        <label>log_Annual_Inc:</label>
+        <input type = "text" name = "log_annual_inc">
+        </select>
+
+        <br>
+        <br>
+        
+        
+        <label>DTI:</label>
+        <input type = "text" name = "dti">
+        </select>
+
+        <br>
+        <br>
+        <label>Fico:</label>
+        <input type = "text" name = "fico">
+        </select>
+
+        <br>
+        <br>
+        <label>Days_With_Cr_Line:</label>
+        <input type = "text" name = "days_with_cr_line">
+        </select>
+
+        <br>
+        <br>
+        <label>Revol_Bal:</label>
+        <input type = "text" name = "revol_bal">
+        </select>
+
+        <br>
+        <br>
+        <label>Revol_Util:</label>
+        <input type = "text" name = "revol_util">
+        </select>
+
+        <br>
+        <br>
+        <label>Inq_Last_6mths:</label>
+        <input type = "text" name = "inq_last_6mths">
+        </select>
+
+        <br>
+        <br>
+        <label>Delinq_2yrs:</label>
+        <input type = "text" name = "delinq_2yrs">
+        </select>
+
+        <br>
+        <br>
+        <label>Pub_Rec:</label>
+        <input type = "text" name = "pub_rec">
+        </select>
+
+        <br>
+        <br>
+        <label>Not_fully_paid:</label>
+        <input type = "text" name = "not_fully_paid">
+        </select>
+
+        <br>
+        <br>
+
+        <input type = "submit" value="SUBMIT">
+
+        <br>
+
+        <p>CREDIT POLICY  <b> {{ prediction }} </b> </p>
+
+
+    </form>
+
+
+</body>
+</html>
